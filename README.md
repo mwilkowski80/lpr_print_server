@@ -8,8 +8,7 @@ With this software you do not need to configure your other devices and connect t
 
 ## TODO:
 
-* Test communication with lpr from unprivileged account
-* Persist pair (filename,timestamp) to avoid multiple printing of the same file (removal of the file may not be the best idea because cloud providers may re-synchronize the file and/or we may not have write access to remove this file)
+* Persist pair (filename,timestamp) to avoid multiple printing of the same file in case removal of the file failed (removal of the file may not be the best idea because cloud providers may re-synchronize the file and/or we may not have write access to remove this file)
 
 ## What is the exact usage scenario?
 
